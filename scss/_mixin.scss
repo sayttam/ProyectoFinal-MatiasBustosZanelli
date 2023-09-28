@@ -1,0 +1,39 @@
+
+@mixin flexColumna {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin reset {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin estadisticaMixin {
+    h2 {
+        font-size: 14px;
+    }
+
+    font-size: x-small;
+
+    p {
+        font-size: x-small;
+    }
+}
+
+@mixin headerMixin {
+    a {
+        font-size: small;
+    }
+
+    li {
+        padding-right: 0px;
+        padding-left: 3px;
+    }
+}
+
+@mixin centrar {
+    display: block;
+    padding: auto;
+    margin: auto;
+}

@@ -1,0 +1,21 @@
+@import 'variables';
+// Footer
+
+.contenedorFooter {
+  color: $color-eproyect;
+  background-color: black;
+
+  a {
+    text-decoration: none;
+  }
+
+  p:nth-child(1) {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+}
+
+.topFooter {
+  background-color: $bg-cajablanca;
+  height: 85px;
+}

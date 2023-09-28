@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="eProyect - Acerca de eProyect">
+    <title>Acerca de eProyect</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../img/eProyect.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <!-- Menu de navegacion para vista de escritorio (mas de 576px) -->
+        <nav class="navEscritorio">
+            <div class="background">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><img src="../img/eProyect.png" alt="eProyect" class="logoNav"></li>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="tareas.html">Tareas</a></li>
+                <li><a href="equipo.html">Equipo</a></li>
+                <li class="dropdown dropNav">
+                    <button class="dropdown-toggle bg-transparent border-0 ps-2 botonNav" type="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Informes
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="reportes.html">Reportes</a></li>
+                        <li><a href="about.html">Acerca de</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Menu de navegacion para vista movil (menos de 576px) -->
+
+        <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+            <div class="bg-dark p-4">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="proyectos.html">Proyectos</a></li>
+                    <li><a href="tareas.html">Tareas</a></li>
+                    <li><a href="equipo.html">Equipo</a></li>
+                    <li class="dropdown dropNav">
+                        <button class="dropdown-toggle bg-transparent border-0 ps-2 botonNav" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Informes
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="reportes.html">Reportes</a></li>
+                            <li><a href="about.html">Acerca de</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <nav class="navbar navbar-dark bg-success navMobile">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="acercaDe">
+                <img src="../img/eProyect.png" alt="eProyect" class="imgAbout">
+                <p>
+                    Eproyect. Un sistema web de gestión de proyectos IT es una herramienta esencial en el mundo tecnológico actual. Ofrece una plataforma centralizada para planificar, ejecutar y supervisar proyectos de tecnología de la información de manera eficiente. Este sistema facilita la asignación de tareas, seguimiento de hitos, gestión de recursos y colaboración en tiempo real, lo que aumenta la productividad del equipo. Además, proporciona informes y análisis detallados para evaluar el progreso y tomar decisiones informadas. La seguridad y el control de acceso garantizan la protección de datos confidenciales. En resumen, un sistema web de gestión de proyectos IT optimiza la ejecución de proyectos, mejora la comunicación y maximiza los resultados en el siempre cambiante panorama de la tecnología.</p>
+            </div>
+        </section>
+
+        <section class="formContacto">
+
+            <div class="formulario">
+                <h1>Formulario de contacto</h1>
+                <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+
+
+                <form class="formCampos">
+                    <div>
+                        <label for="nombre" class="colocarNombre">Nombre
+                        </label>
+                        <input type="text" name="introducirNombre" id="nombre" required="obligatorio"
+                            placeholder="Escribe tu nombre">
+                    </div>
+
+                    <div>
+                        <label for="email" class="colocarEmail">Email
+                        </label>
+                        <input type="email" name="introducir_email" id="email" required="obligatorio"
+                            placeholder="Escribe tu Email">
+                    </div>
+
+                    <div>
+                        <label for="telefone" class="colocarTelefono">Teléfono
+                        </label>
+                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                    </div>
+
+
+                    <label for="website" class="colocarWebsite">Sitio web
+                    </label>
+                    <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+            </div>
+
+            <div>
+                <label for="asunto" class="colocarAsunto">Asunto
+                </label>
+                <input type="text" name="introducir_asunto" id="assunto" required="obligatorio"
+                    placeholder="Escribe un asunto">
+            </div>
+
+            <div>
+                <label for="mensaje" class="colocarMensaje">Mensaje
+                </label>
+                <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                    placeholder="Deja aquí tu comentario..."></textarea>
+            </div>
+            <div>
+                <button type="submit" name="enviar_formulario" id="enviar" class="enviarContacto">
+                    <p>Enviar</p>
+                </button>
+            </div>
+            </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contenedorFooter">
+          <section class="d-flex justify-content-between p-4 topFooter">
+
+            <div class="me-5">
+              <span><p>eProyect</p></span>
+            </div>
+
+            <div>
+              <a href="" class="text-white me-4">
+                <i class="fab fa-facebook-f"><img src="../img/facebook.png" alt="Social Facebook"></i>
+              </a>
+              <a href="" class="text-white me-4">
+                <i class="fab fa-twitter"><img src="../img/twitter.png" alt="Social Twitter"></i>
+              </a>
+              <a href="" class="text-white me-4">
+                <i class="fab fa-google"><img src="../img/youtube.png" alt="Social YouTube"></i>
+              </a>
+              <a href="" class="text-white me-4">
+                <i class="fab fa-instagram"><img src="../img/instagram.png" alt="Social Instagram"></i>
+              </a>
+              <a href="" class="text-white me-4">
+                <i class="fab fa-whatsapp"><img src="../img/whatsapp.png" alt="Social Whatsapp"></i>
+              </a>
+            </div>
+
+          </section>
+
+          <section>
+            <div class="container text-center text-md-start mt-5">
+
+              <div class="row mt-3">
+
+                <div class="col-xl-3 col-md-6 col-sm-12 mx-auto mb-4">
+
+                  <h4 class="fw-bold">eProyect</h4>
+                  <p>
+                    Líder en Soluciones Tecnológicas y Gestión de Proyectos IT. Tu Éxito, Nuestra Misión
+                  </p>
+                </div>
+
+                <div class="col-xl-3 col-md-6 col-sm-12 mx-auto mb-4">
+                  <h5 class="text-uppercase fw-bold ">Productos</h5>
+                  <p>
+                    <a href="#!" class="text-white">eProyect</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-white">eCharactering</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-white">eFlow</a>
+                  </p>
+                </div>
+      
+
+                <div class="col-xl-3 col-md-6 col-sm-12 mx-auto mb-4">
+
+                  <h5 class="text-uppercase fw-bold">Enlaces</h5>
+                  <p>
+                    <a href="#!" class="text-white">Preguntas frecuentes</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-white">Términos y condiciones</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-white">Política de cookies</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-white">Ayuda</a>
+                  </p>
+                </div>
+
+      
+
+                <div class="col-xl-3 col-md-6 col-sm-12 mx-auto mb-md-0 mb-4">
+
+                  <h5 class="text-uppercase fw-bold">Contacto</h5>
+                  <p>Córdoba Capital, Córdoba X5000, ARG</p>
+                  <p>info@eproyect.com</p>
+                  <p>+ 54 351 567 88</p>
+                  <p>+ 54 351 567 89</p>
+                </div>
+
+              </div>
+
+            </div>
+          </section>
+
+          <div class="text-center p-3">
+            <a class="text-white" href="#">Copyright &copy; Matias Bustos Zanelli</a>
+          </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
