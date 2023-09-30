@@ -292,6 +292,10 @@ h5 {
   }
 }
 
+.desplegable {
+  cursor: pointer;
+}
+
 ////////////////////////////////////////////////////////////////////////////////////////////
 
 //reportes.html
@@ -303,9 +307,9 @@ h5 {
   border: 2px black solid;
   border-radius: 5px;
   height: 300px;
-  color: black;
+  color: $color-eproyect;
   font-weight: bolder;
-  background-color: $bg-cajablanca;
+  background-color: rgba(0, 0, 0, 0.75);
   height: 350px;
 
   p {

@@ -976,6 +976,10 @@ h5 {
   height: 200px;
 }
 
+.desplegable {
+  cursor: pointer;
+}
+
 .generarReporte {
   margin: 50px 20px;
   margin-top: 100px;
@@ -983,9 +987,9 @@ h5 {
   border: 2px black solid;
   border-radius: 5px;
   height: 300px;
-  color: black;
+  color: #24C44C;
   font-weight: bolder;
-  background-color: rgba(245, 222, 179, 0.37);
+  background-color: rgba(0, 0, 0, 0.75);
   height: 350px;
 }
 .generarReporte p {
@@ -1288,6 +1292,9 @@ h5 {
     left: 38%;
     top: 30%;
   }
+  .cajaNegraProyectos {
+    width: 97%;
+  }
   .cajaRecientes {
     padding-left: 3px;
     padding-right: 3px;
@@ -1328,11 +1335,16 @@ h5 {
   .columnaArea {
     display: none;
   }
+  .botonesProyectos {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30%;
+  }
   .botonesProyectos button {
     height: 25px;
     width: 60px;
     padding: 0;
-    margin-top: 35px;
+    margin-top: 10px;
     font-size: small;
   }
   .areas article img {

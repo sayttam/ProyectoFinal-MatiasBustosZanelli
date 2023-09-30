@@ -168,6 +168,10 @@
           top: 30%;
       }
 
+      .cajaNegraProyectos {
+        width: 97%;
+      }
+
       .cajaRecientes {
           padding-left: 3px;
           padding-right: 3px;
@@ -221,11 +225,17 @@
           display: none;
       }
 
+      .botonesProyectos {
+        display: flex;
+        flex-direction: column;
+        padding-left: 30%;
+      }
+
       .botonesProyectos button {
           height: 25px;
           width: 60px;
           padding: 0;
-          margin-top: 35px;
+          margin-top: 10px;
           font-size: small;
       }
 
@@ -322,6 +332,7 @@
               width: 50%;
           }
       }
+      
 
       .botonesProyectos button {
           height: 25px;
