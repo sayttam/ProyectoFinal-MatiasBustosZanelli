@@ -107,7 +107,7 @@ aside {
   position: relative;
   top: 100px;
   left: 10%;
-  box-shadow: 5px 5px 5px;
+  box-shadow: 5px 5px 5px black;
   width: 80%;
   margin-bottom: 50px;
   height: auto;
@@ -232,8 +232,9 @@ h5 {
 
   article {
     margin-bottom: 30px;
-    border: 3px rgba(0, 0, 0, 0.39) solid;
-    background-color: $bg-cajablanca;
+    border: 3px rgba(0, 0, 0, 0.8) solid;
+    background-color: black;
+    color: $color-eproyect;
     border-radius: 50px;
     width: fit-content;
     padding: 10px;
@@ -274,7 +275,7 @@ h5 {
     h3 {
       margin-top: 10px;
       margin-bottom: 30px;
-      text-shadow: 2px 2px #ffffff39;
+      text-shadow: 2px 2px rgba(0, 0, 0, 0.8);
       font-family: 'Roboto', sans-serif;
       font-weight: 20px;
       transition: 1s;
@@ -401,6 +402,7 @@ h5 {
 
 }
 
+
 .carouselReportes {
   position: relative;
   margin-top: 100px;
@@ -423,7 +425,10 @@ h5 {
   text-align: center;
   width: fit-content;
   top: 60px;
-  background-color: $bg-cajablanca;
+  background-color: black;
+  color: $color-eproyect;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.8) 5px 5px 5px;
 
   input,
   textarea {
@@ -474,7 +479,8 @@ h5 {
 .acercaDe {
   display: flex;
   flex-direction: row;
-  background-color: $color-light;
+  color: $color-eproyect;
+  background-color: black;
 
   p {
     margin-top: 100px;

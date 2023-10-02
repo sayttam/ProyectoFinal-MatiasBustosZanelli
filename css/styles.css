@@ -18,6 +18,10 @@ body {
   background-attachment: fixed;
 }
 
+h1 {
+  display: none;
+}
+
 .navMobile {
   display: none;
 }
@@ -818,7 +822,7 @@ aside {
   position: relative;
   top: 100px;
   left: 10%;
-  box-shadow: 5px 5px 5px;
+  box-shadow: 5px 5px 5px black;
   width: 80%;
   margin-bottom: 50px;
   height: auto;
@@ -927,8 +931,9 @@ h5 {
 }
 .areas article {
   margin-bottom: 30px;
-  border: 3px rgba(0, 0, 0, 0.39) solid;
-  background-color: rgba(245, 222, 179, 0.37);
+  border: 3px rgba(0, 0, 0, 0.8) solid;
+  background-color: black;
+  color: #24C44C;
   border-radius: 50px;
   width: fit-content;
   padding: 10px;
@@ -962,7 +967,7 @@ h5 {
 .areas article h3 {
   margin-top: 10px;
   margin-bottom: 30px;
-  text-shadow: 2px 2px rgba(255, 255, 255, 0.2235294118);
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.8);
   font-family: "Roboto", sans-serif;
   font-weight: 20px;
   transition: 1s;
@@ -1084,7 +1089,10 @@ h5 {
   text-align: center;
   width: fit-content;
   top: 60px;
-  background-color: rgba(245, 222, 179, 0.37);
+  background-color: black;
+  color: #24C44C;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.8) 5px 5px 5px;
 }
 .formContacto input,
 .formContacto textarea {
@@ -1134,7 +1142,8 @@ h5 {
 .acercaDe {
   display: flex;
   flex-direction: row;
-  background-color: #fff;
+  color: #24C44C;
+  background-color: black;
 }
 .acercaDe p {
   margin-top: 100px;
