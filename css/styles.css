@@ -931,9 +931,10 @@ h5 {
 }
 .areas article {
   margin-bottom: 30px;
-  border: 3px rgba(0, 0, 0, 0.8) solid;
+  border: 3px rgba(0, 0, 0, 0.5) solid;
   background-color: black;
   color: #24C44C;
+  box-shadow: 5px 5px 5px black;
   border-radius: 50px;
   width: fit-content;
   padding: 10px;
@@ -1071,6 +1072,34 @@ h5 {
   font-size: 30px;
   padding-left: 40px;
   padding-top: 5px;
+}
+
+.rendimiento {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 98%;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.cajaNegraRendimiento {
+  height: 150px;
+  text-align: center;
+  transition: 300ms;
+}
+.cajaNegraRendimiento h4 {
+  font-size: 40px;
+  text-shadow: 2px 2px black;
+  border-radius: 10px;
+  background-color: rgba(245, 222, 179, 0.37);
+  margin: 2px 5px;
+}
+.cajaNegraRendimiento p {
+  font-size: 60px;
+}
+.cajaNegraRendimiento:hover {
+  transform: scale(1.02);
 }
 
 .carouselReportes {
@@ -1220,9 +1249,6 @@ h5 {
     width: 100%;
     font-size: 10px;
   }
-  .carouselTareas {
-    padding: 20px;
-  }
   .mainTareas {
     font-size: 10px;
   }
@@ -1253,6 +1279,16 @@ h5 {
   }
   .generarReporte div:nth-child(4) {
     margin-bottom: 50px;
+  }
+  .cajaNegraRendimiento {
+    height: 90px;
+  }
+  .cajaNegraRendimiento h4 {
+    font-size: 15px;
+  }
+  .cajaNegraRendimiento p {
+    margin-top: 18px;
+    font-size: 30px;
   }
   .acercaDe {
     flex-direction: column;
@@ -1338,9 +1374,6 @@ h5 {
     width: 100%;
     font-size: 10px;
   }
-  .carouselTareas {
-    padding: 20px;
-  }
   .columnaArea {
     display: none;
   }
@@ -1373,6 +1406,16 @@ h5 {
   }
   .generarReporte div:nth-child(4) {
     margin-bottom: 50px;
+  }
+  .cajaNegraRendimiento {
+    height: 100px;
+  }
+  .cajaNegraRendimiento h4 {
+    font-size: 13px;
+  }
+  .cajaNegraRendimiento p {
+    margin-top: 18px;
+    font-size: 40px;
   }
   .acercaDe {
     flex-direction: column;
@@ -1439,9 +1482,6 @@ h5 {
     padding-left: 15px;
     padding-right: 15px;
   }
-  .carouselTareas {
-    padding: 50px;
-  }
   .columnaArea {
     display: none;
   }
@@ -1462,6 +1502,16 @@ h5 {
   }
   .carouselReportes {
     padding: 50px;
+  }
+  .cajaNegraRendimiento {
+    height: 120px;
+  }
+  .cajaNegraRendimiento h4 {
+    font-size: 18px;
+  }
+  .cajaNegraRendimiento p {
+    margin-top: 18px;
+    font-size: 50px;
   }
 }
 @media (min-width: 769px) and (max-width: 992px) {
@@ -1521,6 +1571,15 @@ h5 {
   .generarReporte div:nth-child(4) {
     margin-bottom: 50px;
   }
+  .generarReporte div:nth-child(4) .cajaNegraRendimiento h4 {
+    font-size: 25px;
+  }
+  .cajaNegraRendimiento h4 {
+    font-size: 25px;
+  }
+  .cajaNegraRendimiento p {
+    margin-top: 15px;
+  }
   .carouselReportes {
     margin-top: 140px;
     padding: 50px;
@@ -1564,6 +1623,12 @@ h5 {
   }
   .topFooter p:first-child {
     font-size: 33px;
+  }
+  .cajaNegraRendimiento h4 {
+    font-size: 30px;
+  }
+  .cajaNegraRendimiento p {
+    margin-top: 10px;
   }
 }
 @media (min-width: 1201px) and (max-width: 1400px) {

@@ -73,10 +73,6 @@
           }
       }
 
-      .carouselTareas {
-          padding: 20px;
-      }
-
       .mainTareas {
           font-size: 10px;
       }
@@ -115,6 +111,21 @@
           div:nth-child(4) {
               margin-bottom: 50px;
           }
+      }
+
+      
+      .cajaNegraRendimiento {
+        height: 90px;
+
+        h4 {
+            font-size: 15px;
+        }
+
+                
+        p {
+            margin-top: 18px;
+            font-size: 30px;
+        }
       }
 
       .acercaDe {
@@ -217,10 +228,6 @@
           }
       }
 
-      .carouselTareas {
-          padding: 20px;
-      }
-
       .columnaArea {
           display: none;
       }
@@ -262,6 +269,20 @@
           div:nth-child(4) {
               margin-bottom: 50px;
           }
+      }
+
+      
+      .cajaNegraRendimiento {
+        height: 100px;
+
+        h4 {
+            font-size: 13px;
+        }
+        
+        p {
+            margin-top: 18px;
+            font-size: 40px;
+        }
       }
 
       .acercaDe {
@@ -347,10 +368,6 @@
           padding-right: 15px;
       }
 
-      .carouselTareas {
-          padding: 50px;
-      }
-
       .columnaArea {
           display: none;
       }
@@ -377,6 +394,20 @@
 
       .carouselReportes {
           padding: 50px;
+      }
+
+      .cajaNegraRendimiento {
+        height: 120px;
+
+        h4 {
+            font-size: 18px;
+        }
+
+                
+        p {
+            margin-top: 18px;
+            font-size: 50px;
+        }
       }
   }
 
@@ -453,9 +484,23 @@
               margin-bottom: 20px;
           }
 
-          div:nth-child(4) {
+          div:nth-child(4) {      .cajaNegraRendimiento {
+        h4 {
+            font-size: 25px;
+        }
+      }
               margin-bottom: 50px;
           }
+      }
+
+      .cajaNegraRendimiento {
+        h4 {
+            font-size: 25px;
+        }
+
+        p {
+            margin-top: 15px;
+        }
       }
 
       .carouselReportes {
@@ -520,6 +565,17 @@
           p:first-child {
               font-size: 33px;
           }
+      }
+
+      .cajaNegraRendimiento {
+        h4 {
+            font-size: 30px;
+        }
+
+        
+        p {
+            margin-top: 10px;
+        }
       }
   }
 
