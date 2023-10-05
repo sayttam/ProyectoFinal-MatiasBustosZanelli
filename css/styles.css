@@ -1290,6 +1290,9 @@ h5 {
     margin-top: 18px;
     font-size: 30px;
   }
+  .imagenOpciones {
+    width: 80%;
+  }
   .acercaDe {
     flex-direction: column;
     text-align: center;
@@ -1416,6 +1419,9 @@ h5 {
   .cajaNegraRendimiento p {
     margin-top: 18px;
     font-size: 40px;
+  }
+  .imagenOpciones {
+    width: 80%;
   }
   .acercaDe {
     flex-direction: column;
