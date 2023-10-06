@@ -887,7 +887,7 @@ aside {
   padding: 50px;
 }
 .calendario iframe {
-  height: 2000px;
+  height: 1000px;
   width: 100%;
   background-color: wheat;
 }
