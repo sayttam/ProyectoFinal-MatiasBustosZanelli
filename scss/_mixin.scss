@@ -19,6 +19,10 @@
     p {
         font-size: x-small;
     }
+
+    a {
+        padding-right: 5px;
+    }
 }
 
 @mixin headerMixin {

@@ -16,6 +16,10 @@
 
       header {
           @include headerMixin();
+
+        li {
+            display: block;
+        }
       }
 
       .separador {

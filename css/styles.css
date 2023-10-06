@@ -708,7 +708,7 @@ button:hover {
 
 .estTareasVencer {
   background: rgb(255, 255, 255);
-  background: linear-gradient(90deg, rgb(238, 4, 4) 0%, rgb(214, 69, 69) 80%, rgb(255, 255, 255) 100%);
+  background: radial-gradient(circle, rgb(238, 4, 4) 0%, rgb(214, 69, 69) 80%, rgb(255, 255, 255) 100%);
 }
 
 .estMiembros {
@@ -1154,7 +1154,7 @@ h5 {
 }
 
 .colocarTelefono {
-  margin-right: 8px;
+  margin-right: 7.5px;
 }
 
 .colocarWebsite {
@@ -1162,11 +1162,11 @@ h5 {
 }
 
 .colocarAsunto {
-  margin-right: 19px;
+  margin-right: 18.5px;
 }
 
 .colocarMensaje {
-  margin-right: 8px;
+  margin-right: 7.5px;
 }
 
 .acercaDe {
@@ -1202,12 +1202,18 @@ h5 {
   .estadistica p {
     font-size: x-small;
   }
+  .estadistica a {
+    padding-right: 5px;
+  }
   header a {
     font-size: small;
   }
   header li {
     padding-right: 0px;
     padding-left: 3px;
+  }
+  header li {
+    display: block;
   }
   .separador {
     height: 150px;
@@ -1326,6 +1332,9 @@ h5 {
   }
   .estadistica p {
     font-size: x-small;
+  }
+  .estadistica a {
+    padding-right: 5px;
   }
   header a {
     font-size: small;
