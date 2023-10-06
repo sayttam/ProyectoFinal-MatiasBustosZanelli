@@ -1472,7 +1472,7 @@ h5 {
     height: 32px;
   }
   .tarjetasPadre {
-    margin-left: 40px;
+    margin-left: 10px;
   }
   .tarjetasPadre article {
     height: 50%;
@@ -1679,7 +1679,7 @@ h5 {
     left: 20%;
   }
   .buscarProyecto button {
-    left: 19%;
+    left: 20%;
   }
   nav a,
   button {
